@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #ff6b6b, #6b5b95);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 500px;
+  background-color: #fff;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center; /* Centraliza o conteúdo do formulário */
+  margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+label {
+  display: block;
+  margin-bottom: 9px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+}
