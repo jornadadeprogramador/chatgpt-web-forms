@@ -1,6 +1,6 @@
 # Cadastro de Devs
 
-Este repositório contém um formulário de cadastro de desenvolvedores (devs) desenvolvido com base nas instruções fornecidas pelo [ChatGPT](https://chat.openai.com/). O formulário é construído com HTML, CSS e JavaScript básico. Os dados inseridos no formulário podem ser salvos e exibidos por meio de um alerta.
+Este repositório contém um formulário de cadastro de desenvolvedores (devs) desenvolvido com base nas instruções fornecidas pelo [ChatGPT](https://chat.openai.com/). O formulário é um CRUD construído apenas com HTML, CSS e JavaScript. Os dados inseridos no formulário são armazenados no LocalStorage do navegador e exibidos em uma tabela.
 
 
 ## Conteúdo

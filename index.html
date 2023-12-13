@@ -11,8 +11,8 @@
     <title>Formulário</title>
   </head>
   <body>
-    <form>
-      <h1>Cadastro de Devs</h1>
+    <h1>Cadastro de Devs</h1>
+    <form id="cadastroForm">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required />
 
@@ -32,8 +32,25 @@
       <label for="profissao">Profissão:</label>
       <input type="text" id="profissao" name="profissao" required />
 
-      <button type="submit" id="btnSalvar">Salvar</button>
+      <button type="button" id="btnSalvar">Salvar</button>
+      <button type="button" id="btnCancelar" class="cancelar-btn" onclick="cancelarEdicao()">Cancelar</button>
     </form>
+
+    <!-- Tabela para exibir os dados -->
+    <h2>Devs Cadastrados</h2>
+    <table border="1" id="dadosTable">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Data de Nascimento</th>
+          <th>Sexo</th>
+          <th>Profissão</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
     <script src="js/script.js"></script>
   </body>
